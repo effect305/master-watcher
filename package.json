@@ -1,0 +1,29 @@
+{
+  "name": "dont-merge",
+  "version": "1.0.0",
+  "files": [
+    "index.js",
+    "src/"
+  ],
+  "keywords": [
+    "probot",
+    "github app",
+    "do not merge",
+    "prevent merging",
+    "labels"
+  ],
+  "scripts": {
+    "start": "probot run ./index.js"
+  },
+  "dependencies": {
+    "probot": "^5.0.0"
+  },
+  "devDependencies": {
+    "smee-client": "^1.1.0",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": "8",
+    "npm": ">= 4.0.0"
+  }
+}
